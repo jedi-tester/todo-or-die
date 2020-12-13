@@ -1,7 +1,7 @@
-package io.github.serpro69.todo.or.die
+package todo.or.die
 
-import io.github.serpro69.todo.or.die._Config.messageLevel
-import io.github.serpro69.todo.or.die._Config.printCantDie
+import todo.or.die._Config.messageLevel
+import todo.or.die._Config.printCantDie
 import kotlin.native.concurrent.ThreadLocal
 
 class TodoOrDieConfig(configure: _Config.() -> Unit) {

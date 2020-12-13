@@ -1,4 +1,4 @@
-package io.github.serpro69.todo.or.die
+package todo.or.die
 
 /**
  * A standalone dedicated logger for the application.

@@ -1,7 +1,7 @@
-package io.github.serpro69.todo.or.die
+package todo.or.die
 
-import io.github.serpro69.todo.or.die._Config.messageLevel
-import io.github.serpro69.todo.or.die._Config.printCantDie
+import todo.or.die._Config.messageLevel
+import todo.or.die._Config.printCantDie
 import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone

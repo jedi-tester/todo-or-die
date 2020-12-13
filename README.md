@@ -1,23 +1,9 @@
 ### todo-or-die
 
-<img src="icon/todo-or-die.png" height="186" alt="todo-or-die"></img>
-
-> "todo or not todo?", that is the ultimate question of life
-
-[![Download](https://api.bintray.com/packages/serpro69/maven/todo-or-die/images/download.svg)](https://bintray.com/serpro69/maven/todo-or-die/_latestVersion)
-[![Issues Badge](https://img.shields.io/github/issues/serpro69/todo-or-die.svg)](https://github.com/serpro69/todo-or-die/issues)
-[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
-[![Licence Badge](https://img.shields.io/github/license/serpro69/todo-or-die.svg)](LICENCE.md)
-
 ## About
 
-A small **Kotlin Multiplatform** lib that helps you put off coding in a new, cool way, and reminds you to do your TODOs
-by throwing errors for your overdue tasks.
+This is a fork of [todo-or-die](https://github.com/serpro69/todo-or-die).
 
-<b>Please note that this project is in Alpha version.
- I initially created it to explore Kotlin Multiplatform, particularly publications of multiplatform libraries.
- At the same time the functionality is really primitive and <i>"should work fine"</i> (c) Famous Last Words.</b>
- 
 ### Motivation
 
 Have you ever found yourself in a situation when you develop a piece of software, that it is easier to hack something together to make it work,
@@ -31,38 +17,21 @@ and use the same infamous `#TODO Whoever wrote this piece of cr*p? Oh right, it 
 
 Unfortunately, while something along the lines of *"fix it right away"* might sound good on paper,
 in reality you can't always do that "fix" right away for various reasons.
-Another reality is, as LeBlanc's Law states, `Later == Never`, 
+Another reality is, as LeBlanc's Law states, `Later == Never`,
 which has been proven time and again by numerous software developers and teams.
 
 ## Installation
 
 ### Gradle
 
-Add the following repository to your build file:
-```kotlin
-repositories {
-    maven(url = "https://dl.bintray.com/serpro69/maven")
-}
-```
-
+TODO
 
 *Note that the project depends on [kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime)
 which is currently available only in the following repository: `https://kotlin.bintray.com/kotlinx/`*
 
 After the above repos are included in your build file, add one of the following to your dependencies:
-```kotlin
-//JVM
-implementation("io.github.serpro69:todo-or-die-jvm:$version")
 
-//JS
-implementation("io.github.serpro69:todo-or-die-js:$version")
-
-//MultiPlatform/commonMain
-implementation("io.github.serpro69:todo-or-die:$version")
-```
-
-Latest releases of this lib are always available in this
-[bintray repo](https://bintray.com/serpro69/maven/todo-or-die/_latestVersion).
+TODO
 
 ## Usage
 
@@ -139,23 +108,3 @@ The `messageLevel` simply changes the color of the output for the printed messag
 * `WARN` - prints the message in YELLOW and prefixes with `"[WARN]"`
 * `INFO` - prints the message in BLUE and prefixes with `"[INFO]"`
 * `DEBUG` - prints the message in WHITE and prefixes with `"[DEBUG]"`
-
-
-## Contributing
-
-Feel free to submit a [pull request](https://github.com/serpro69/kotlin-faker/compare) 
-and/or open a [new issue](https://github.com/serpro69/kotlin-faker/issues/new)
-if you would like to contribute.
-
-## Licence
-
-This code is free to use under the terms of the MIT licence.
-See [LICENCE.md](LICENCE.md).
-
-## Thanks
-
-* This project is inspired by [todo_or_die ruby gem](https://github.com/searls/todo_or_die)
-
-* Many thanks to these awesome tools that help us in creating open-source software:  
-[![Intellij IDEA](https://cloud.google.com/tools/images/icon_IntelliJIDEA.png)](http://www.jetbrains.com/idea) 
-[![YourKit Java profiler](https://www.yourkit.com/images/yklogo.png)](https://www.yourkit.com/features/)
